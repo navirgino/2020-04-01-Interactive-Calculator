@@ -1,0 +1,21 @@
+* {
+    background-color: #F6F6F6;
+
+}
+
+.container {
+    margin: auto;
+    width: 40vw;
+}
+
+.cheese_pizza {
+    width: 20vw;
+
+}
+
+.hero {
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+    font-size: 20px;
+
+
+}

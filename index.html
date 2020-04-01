@@ -3,31 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Pizza Calculator</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
+
 <body>
-<button id="cheese">Image of Cheese 'Za Here</button>
-<button id="pepperoni">Image of Pepperoni 'Za here</button>
+<h1>Cheese Pizza Calculator</h1>
+<div class="hero">
+    <p>"We love pizza. You love pizza. Don't skip it! But definitely be mindful of what's going into your body — that's true for all foods, pizza or otherwise! Here's what goes into some of your favorite slices: a small cheese pie varies from restaurant to restaurant, so we're giving you a good handful of options to look at from BJ's Brewhouse to California Pizza Kitchen to Domino's.
 
-<div id="cheese_p_calories">
+        Depending on where you eat and the size of your slice, you're looking at anywhere from 200 to 300 calories per slice, with the average coming in around 260. But as you're well aware of, not all calories are created equally. Make sure you know how much protein, fat, and grams of carbohydrates you're getting, too!" (Astorino, popsugar.com)</p>
+</div>
+<h2>How many slices of cheese 'zza would you want to eat today?</h2>
+<hr>
+<h4>Click the cheese 'zza to find out to calculate macros, and calories!</h4>
+
+
+<!--<button id="pepperoni">Image of Pepperoni 'Za here</button>-->
+<div id="container">
+
+
+    <div id="pizza">
+        <img id="original_cheese_pizza" class="cheese_pizza" src="img/cheese_pizza.png">
+    </div>
+    <hr>
     <div id="cheese_p_fat_count">
-        <h4>Fat: <input class="fat_num" type="number" value="13">g </h4>
-
+        <input class="fat_num" type="hidden" value="13">
+        <h4>Fat(g): <p id="total_fat">13</p></h4>
     </div>
-
     <div id="cheese_p_carb_count">
-        <h4>Carbohydrates: <input class="carb_num" type="number" value="33">g </h4>
-
+        <input class="carb_num" type="hidden" value="33">
+        <h4>Carbohydrates(g): <p id="total_carb">33</p></h4>
     </div>
 
-    <div id="cheese_p_pepperoni_count">
-        <h4>Protein: <input class="protein_num" type="number" value="13">g</h4>
+    <div id="cheese_p_protein_count">
+        <input class="protein_num" type="hidden" value="13">
+        <h4>Protein(g) <p id="total_protein">13</p></h4>
     </div>
 
     <div id="cheese_p_calorie_count">
-        <h1>Total Calories:</h1>
-        <input class="calorie_num" type="number" value="310">
+        <input class="calorie_num" type="hidden" value="310">
+        <h1>Total Calories: <p id="total_calories">310</p></h1>
     </div>
+
 </div>
+
 
 
 
